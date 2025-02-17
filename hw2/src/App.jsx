@@ -46,9 +46,9 @@ const styles = {
 
 const App = () => {
   const products = [
-    { name: "Ноутбук", price: 250000 },
-    { name: "Смартфон", price: 120000 },
-    { name: "Наушники", price: 15000 },
+    { name: "Ноутбук", price: 1 },
+    { name: "Смартфон", price: 2 },
+    { name: "Наушники", price: 1503300 },
   ];
 
   return (
@@ -63,15 +63,5 @@ const App = () => {
   );
 };
 
-styles.container = {
-  textAlign: "center",
-  padding: "20px",
-};
-
-styles.products = {
-  display: "flex",
-  justifyContent: "center",
-  gap: "20px",
-};
 
 export default App;
