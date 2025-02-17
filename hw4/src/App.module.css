@@ -1,0 +1,24 @@
+
+.container {
+    padding: 20px;
+  }
+  
+  .switchBTN {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .switchBTN:hover {
+    background-color: #45a049;
+  }
+  
+  .centered-image {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+  }
+  
